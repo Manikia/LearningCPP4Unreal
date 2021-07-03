@@ -1,0 +1,9 @@
+C:\Users\monik\OneDrive\Desktop\summer projects 2021\unrealProject\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\Definitions.QuickStart.h
+D:\games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\monik\OneDrive\Desktop\summer projects 2021\unrealProject\QuickStart\Source\QuickStart/QuickStartGameModeBase.h
+D:\games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\monik\OneDrive\Desktop\summer projects 2021\unrealProject\QuickStart\Intermediate\Build\Win64\UE4Editor\Inc\QuickStart\QuickStartGameModeBase.generated.h

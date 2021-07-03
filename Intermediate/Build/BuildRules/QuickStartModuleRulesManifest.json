@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\monik\\OneDrive\\Desktop\\summer projects 2021\\unrealProject\\QuickStart\\Source\\QuickStart\\QuickStart.Build.cs",
+		"C:\\Users\\monik\\OneDrive\\Desktop\\summer projects 2021\\unrealProject\\QuickStart\\Source\\QuickStart.Target.cs",
+		"C:\\Users\\monik\\OneDrive\\Desktop\\summer projects 2021\\unrealProject\\QuickStart\\Source\\QuickStartEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}

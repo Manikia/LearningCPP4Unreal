@@ -1,0 +1,3 @@
+C:\Users\monik\OneDrive\Desktop\summer projects 2021\unrealProject\QuickStart\Intermediate\Build\Win64\UE4Editor\Development\QuickStart\Definitions.QuickStart.h
+D:\games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
