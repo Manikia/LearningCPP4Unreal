@@ -28,4 +28,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FloatingActor")
+		float FloatSpeed = 20.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FloatingActor")
+		float RotationSpeed = 20.0f;
+
 };

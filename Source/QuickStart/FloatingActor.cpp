@@ -12,7 +12,7 @@ AFloatingActor::AFloatingActor()
 	VisualMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	VisualMesh->SetupAttachment(RootComponent);
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> CubeVisualAsset(TEXT("Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> CubeVisualAsset(TEXT("/Game/StarterContent/Shapes/Shape_Cube"));
 
 	if (CubeVisualAsset.Succeeded())
 	{
@@ -40,9 +40,9 @@ void AFloatingActor::Tick(float DeltaTime)
 	float RunningTime = GetGameTimeSinceCreation(); //it will get the time since it began moving(from starting position)
 
 	float DeltaHeight = (FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime));
-	NewLocation.Z += DeltaHeight * 20.0f; //this is rescaling to new heights since its calculating everytime bc a factor of 20
+	NewLocation.Z += DeltaHeight * FloatSpeed; //this is rescaling to new heights since its calculating everytime bc a factor of 20
 
-	float DeltaRotation = DeltaTime * 20.0f;
+	float DeltaRotation = DeltaTime * RotationSpeed;
 	NewRotation.Yaw += DeltaRotation;
 
 	SetActorLocationAndRotation(NewLocation, NewRotation);
