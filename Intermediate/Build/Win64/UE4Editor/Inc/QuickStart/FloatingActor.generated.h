@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define QUICKSTART_FloatingActor_generated_h
 
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_SPARSE_DATA
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_RPC_WRAPPERS
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_INCLASS_NO_PURE_DECLS \
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_SPARSE_DATA
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_RPC_WRAPPERS
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFloatingActor(); \
 	friend struct Z_Construct_UClass_AFloatingActor_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AFloatingActor)
 
 
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_INCLASS \
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAFloatingActor(); \
 	friend struct Z_Construct_UClass_AFloatingActor_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AFloatingActor)
 
 
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_STANDARD_CONSTRUCTORS \
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFloatingActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFloatingActor) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_ENHANCED_CONSTRUCTORS \
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFloatingActor(AFloatingActor&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFloatingActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFloatingActor)
 
 
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_PRIVATE_PROPERTY_OFFSET
-#define QuickStart_Source_QuickStart_FloatingActor_h_9_PROLOG
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_GENERATED_BODY_LEGACY \
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_PRIVATE_PROPERTY_OFFSET
+#define QuickStart_Source_QuickStart_FloatingActor_h_10_PROLOG
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_SPARSE_DATA \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_RPC_WRAPPERS \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_INCLASS \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_STANDARD_CONSTRUCTORS \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_SPARSE_DATA \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_RPC_WRAPPERS \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_INCLASS \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define QuickStart_Source_QuickStart_FloatingActor_h_12_GENERATED_BODY \
+#define QuickStart_Source_QuickStart_FloatingActor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_SPARSE_DATA \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_INCLASS_NO_PURE_DECLS \
-	QuickStart_Source_QuickStart_FloatingActor_h_12_ENHANCED_CONSTRUCTORS \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_SPARSE_DATA \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_INCLASS_NO_PURE_DECLS \
+	QuickStart_Source_QuickStart_FloatingActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

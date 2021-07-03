@@ -16,9 +16,9 @@ public:
 	// Sets default values for this actor's properties
 	AFloatingActor();
 
-//this is our visual representation inside unreal
-UPROPERTY(VisibleAnywhere)
-UStaticMeshComponent* VisualMesh;
+	UPROPERTY(VisibleAnywhere);
+	UStaticMeshComponent* VisualMesh;
+	//this will visually represent our object on unreal
 
 protected:
 	// Called when the game starts or when spawned

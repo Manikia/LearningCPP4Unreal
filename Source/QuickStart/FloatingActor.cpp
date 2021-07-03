@@ -12,12 +12,13 @@ AFloatingActor::AFloatingActor()
 	VisualMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	VisualMesh->SetupAttachment(RootComponent);
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> CuveVisualAsset(TEXT("/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
-	
-	if(CubeVisual.Succeeded())
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> CubeVisualAsset(TEXT("Game/StarterContent/Shapes/Shape_Cube.Shape_Cube"));
+
+	if (CubeVisualAsset.Succeeded())
 	{
-		VisualMesh->SetStaticMesh(CubeVisualAsser.Object);
+		VisualMesh->SetStaticMesh(CubeVisualAsset.Object);
 		VisualMesh->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
+		//this constructor will initialize itself in the position if it succeeds
 	}
 }
 
@@ -33,5 +34,17 @@ void AFloatingActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FVector NewLocation = GetActorLocation();
+	FRotator NewRotation = GetActorRotation();
+
+	float RunningTime = GetGameTimeSinceCreation(); //it will get the time since it began moving(from starting position)
+
+	float DeltaHeight = (FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime));
+	NewLocation.Z += DeltaHeight * 20.0f; //this is rescaling to new heights since its calculating everytime bc a factor of 20
+
+	float DeltaRotation = DeltaTime * 20.0f;
+	NewRotation.Yaw += DeltaRotation;
+
+	SetActorLocationAndRotation(NewLocation, NewRotation);
 }
 
